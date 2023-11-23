@@ -12,8 +12,10 @@ public class PropertiesExecutiontest {
 		PropertiesUtility PUTIL = new PropertiesUtility();
 		String USERNAME =PUTIL.getDataFromProperties("username");
 		String PASSWORD = PUTIL.getDataFromProperties("password");
+		String URL = PUTIL.getDataFromProperties("url");
 		
 		System.out.println(USERNAME);
 		System.out.println(PASSWORD);
+		System.out.println(URL);
 	}
 }
